@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 320px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #0000;
+    color:black;
+    /*font-family: 'Righteous', cursive;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainContainer{
+    width: 320px;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
