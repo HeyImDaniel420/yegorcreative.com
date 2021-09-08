@@ -25,19 +25,27 @@ body {
     display: flex;
     flex-direction: column;
 }
-#topPart{
+#topPart, #aboutMe, #youtube{
     width: 100%;
-    height: 100vh;
+    
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-image: url(../Assets/background11.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-.logo{
+#topPart{
+  background-image: url(../Assets/background11.png);
+  height: 65vh;
+}
+#aboutMe{
+  margin-top: 20px;
+  background-image: url(../Assets/background2.png);
+}
+
+/*.logo{
     animation-duration: 3s;
   animation-name: slidein;
 }
@@ -51,7 +59,7 @@ body {
       margin-left: 0%;
       width: 120px;
     }
-  }
+  }*/
   .partOne{
       width: 100%;
       box-sizing: border-box;
@@ -63,7 +71,7 @@ body {
   .partOne h1{
     font-family: 'Righteous', cursive;
     text-shadow: 1px 1px 1px rgb(182, 182, 182), 
-               3px 3px 5px rgb(247, 200, 247); 
+               3px 3px 5px rgb(253, 233, 253); 
   }
   .partTwo{
       width: 100%;
@@ -72,4 +80,64 @@ body {
   }
   .partTwo h1{
     font-family: 'Righteous', cursive;
+  }
+  .meMe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+  }
+  .Yegor{
+    border-radius: 50%;
+    box-shadow: 5px 5px #b692bd;
+  }
+  .meMe h1{
+    font-family: 'Righteous', cursive;
+  }
+
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 50.25%; /* 16:9 */
+   height: 0;
+    background-image: url(../Assets/Asset12small.png);
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.54);
+  }
+  .portfolio{
+    width: 100%;
+    box-sizing: border-box;
+    pad: 7px;
+    background-color: blanchedalmond;
+  }
+  .portfolio h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+  }
+  .portfolio p{
+    padding: 15px;
+    max-width: 500px;
+    text-align: center;
+  }
+  .buttons{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
