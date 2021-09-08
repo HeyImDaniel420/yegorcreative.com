@@ -123,6 +123,12 @@ body {
     box-sizing: border-box;
     pad: 7px;
     background-color: blanchedalmond;
+    background-image: url(../Assets/portfolio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6805F2;
+
   }
   .portfolio h1 {
     font-family: 'Righteous', cursive;
@@ -140,4 +146,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .butTon{
+    width: 220px;
+    padding: 7px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid 3px white;
+    color: rgb(255, 255, 255)
+
   }
